@@ -1,0 +1,110 @@
+.footer{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgb(4, 15, 34);
+    flex-wrap: wrap;
+    
+    
+ }
+
+ .footer-item{
+    color: white;
+    padding: 20px;
+ }
+
+ .footer-item-list{
+    padding: 5px ;
+  
+ }
+
+ .footer-item-title{
+    margin-bottom: 21px;
+ }
+
+ .footer-item-link{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: all 1s ease;
+ }
+
+ .footer-item-link:hover{
+     text-decoration: underline;
+     color: blueviolet;
+     
+ }
+
+ .footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+   
+    
+    
+ }
+
+  .footer-icons .icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+    
+    
+ } 
+
+ .footer-icons .icon i{
+    color: black;
+    font-size: 32px; }
+
+
+
+    .footer-item.select-box-weapper{
+        display: flex;   
+        flex-direction: column;
+    }
+
+    .select-box{
+       margin-bottom: 15px;
+       display: flex;   
+       flex-direction: column;
+    }
+    .select-box-label{
+      font-weight: 500px;
+      margin: 7px;
+      font-size: 21px;
+    }
+
+    .selecy-box-input{
+      padding: 10px 15px;
+      border: none;
+      font-size: 17px;
+      border-radius: 7px;
+      outline: none;
+    }
+
+
+    .footer-copy-right{
+        color: white;
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+    @media(max-width:720px){
+      .footer{
+         flex-direction: column;
+      }
+
+    }
+
+
